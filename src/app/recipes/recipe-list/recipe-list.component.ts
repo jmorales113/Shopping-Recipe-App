@@ -11,6 +11,7 @@ export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [
     new Recipe("A Test Receipe", "This is simply a test", "https://232952-712248-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2020/06/Ikea-Veggie-Balls-FEAT.jpg"),
     new Recipe("A Test Receipe", "This is simply a test", "https://232952-712248-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2020/06/Ikea-Veggie-Balls-FEAT.jpg")
+
   ]
 
   constructor() { }
